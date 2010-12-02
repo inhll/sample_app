@@ -4,6 +4,4 @@ SampleApp::Application.routes.draw do
   match '/help', :to => 'pages#help'
   
   root :to => 'pages#home'
-  root_path => '/'
-  root_url => 'http://localhost:3000/'
 end
